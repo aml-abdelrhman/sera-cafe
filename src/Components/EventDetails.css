@@ -1,0 +1,27 @@
+.event-details {
+  padding: 20px;
+  text-align: center;
+}
+
+.event-images {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.event-images img {
+  width: 100%;
+  max-width: 280px;
+  border-radius: 10px;
+}
+
+.event-text {
+  margin-top: 15px;
+  font-size: 1.1rem;
+}
+
+.back-btn {
+  margin-top: 20px;
+}

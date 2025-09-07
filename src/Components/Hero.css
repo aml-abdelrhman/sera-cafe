@@ -1,0 +1,19 @@
+.hero-section {
+  height: 90vh;
+  background-image: url('https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3rem; 
+  border-radius: 0.5rem; 
+}
+
+.hero-overlay .btn:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+  transition: 0.3s;
+}

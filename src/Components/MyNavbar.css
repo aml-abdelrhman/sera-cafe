@@ -1,0 +1,26 @@
+.nav-link-custom {
+  color: #745606; 
+  transition: color 0.3s;
+}
+
+.nav-link-custom:hover {
+  color: #e28080; 
+}
+
+.btn-custom {
+  transition:  0.3s, color 0.3s;
+}
+
+.btn-custom:hover {
+  background-color: #e0a800; 
+  color: #fff;
+}
+
+.text-dark.fw-bold.fs-3 {
+    position: relative;
+    left: 70px;
+}
+
+.my-navbar .order-btn {
+    margin-left: 1rem;
+}
