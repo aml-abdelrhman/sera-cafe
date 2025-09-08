@@ -1,8 +1,6 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MyNavbar from './Components/MyNavbar';
 import Hero from './Components/Hero';
-import Order from './Components/Order';
 import About from './Components/About';
 import Menu from './Components/Menu';
 import Reservation from './Components/Reservation';
@@ -11,11 +9,12 @@ import Gallery from './Components/Gallery';
 import Testimonials from './Components/Testimonials';
 import Contact from './Components/Contact';
 import MyFooter from './Components/MyFooter';
+import Order from './components/Order';
 import EventDetails from './Components/EventDetails';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/sera-cafe/">
       <MyNavbar />
 
       <Routes>
@@ -34,7 +33,6 @@ function App() {
             </>
           }
         />
-
         <Route path="/events/:id" element={<EventDetails />} />
         <Route path="/order" element={<Order />} />
       </Routes>
